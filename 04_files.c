@@ -27,3 +27,16 @@ int main(){
   }*/
   return 0;
 }
+/*int j;
+FILE *fp;  char output[] = "output.txt";  fp = fopen(output, "w+");
+double genrand64_real1(), a, b;
+int ns = pow(10,4);  //printf("%d \n", ns);
+for (j = 0; j < ns; j++){
+  a = genrand64_real1();  b = genrand64_real1();
+  fprintf(fp, "%f \t %f \n", a, b);  //printf("%f \t %f \n", a, b);
+}
+for (j = 0; j < 10; j++){
+  fscanf(fp, "%f \t %f \n", genrand64_real1(), genrand64_real1());
+  printf("%f \t %f \n", genrand64_real1(), genrand64_real1());
+}
+fclose(fp);*/

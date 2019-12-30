@@ -1,7 +1,7 @@
 //------------------------------------------------------------------------------
 #include <stdio.h>  // compila com:
 #include <stdlib.h>   // gcc 02_conditionals.c -lm
-#include <math.h>   // para ter acesso às funções de math.h
+#include <math.h>   // O -lm é para ter acesso às funções de math.h
 #include <complex.h>
 //------------------------------------------------------------------------------
 int main(){
